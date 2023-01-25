@@ -1,0 +1,234 @@
+.banner1{
+    background: url(/public/images/amy.jpg);
+    width: 100%;
+    height: 550px;
+    opacity: 0.7;
+  }
+  .ro1{
+    margin-left: 25px;
+    margin-top: 200px;
+    color: darkred;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+  }
+  .ro2{
+    color: beige;
+    margin-left: 25px;
+    font-family: sans-serif;
+    margin-top: 25px;
+  
+  }
+  /* FACILITIES CSS START */
+  .part{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: crimson;
+  }
+  .text{
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 600;
+    color: #628762;
+  }
+  .bot{
+    background-color: rgb(39, 37, 37);
+    color: white;
+    padding: 14px 15px 14px 15px;
+    font-family: 'Font Awesome 6 Brands';
+  }
+  .mod1{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: brown;
+    margin-top: 25px;
+  }
+  .mod2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #38bf08;
+    line-height: 25px;
+    font-size: larger;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .read{
+    border-style: none;
+    color: brown;
+    background-color: white;
+    font-size: 15px;
+    font-family: initial;
+    font-weight: 100;
+  }
+  .moto{
+    margin-top: 50px;
+  }
+  .joto{
+    margin-top: 60px;
+  }
+  /* FACILITIES CSS END */
+  .photo1{
+    width: 316px;
+    height: 304px;
+    opacity:0.7;
+  }
+  .photo1:hover{
+    opacity:1.0;
+  }
+  .photo2{
+    width: 607px;
+    height: 304px;
+    opacity:0.8;
+  }
+  .photo2:hover{
+    opacity:1.0;
+  }
+  .photo3{
+    width: 632px;
+    height: 304px;
+    opacity:0.8;
+  }
+  .photo3:hover{
+    opacity:1.0;
+  }
+  .photo4{
+    width: 316px;
+    height: 304px;
+    opacity:0.8;
+  }
+  .photo4:hover{
+    opacity:1.0;
+  }
+  .photo5{
+    width: 291px;
+    height: 304px;
+    opacity:0.8;
+  }
+  .photo5:hover{
+    opacity:1.0;
+  }
+  
+  
+  
+  @media(max-width: 700px){
+    .ro1{
+      text-align: center;
+      font-size: 30px;
+      margin-left: 0;
+    }
+    .ro2{
+      font-size: 15px;
+      margin-left: 0;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .part{
+      text-align: center;
+      font-size: xxx-large;
+    }
+    .text{
+      text-align: center;
+    }
+    .bot{
+      margin-left: 79px;
+      margin-top: 35px;
+    }
+    .mod1{
+      text-align: center;
+      margin-top: 35px;
+    }
+    .mod2{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .read{
+      margin-left: 88px;
+      margin-top: 30px;
+    }
+    .poto{
+      margin-top: 65px;
+    }
+    .poto2{
+      margin-top: 40px;
+    }
+    .photo1{
+      width: 277px;
+      height: 325px;
+      opacity:1.0;
+    }
+    .photo2{
+      width: 277px;
+      height: 205px;
+      opacity:1.0;
+    }
+    .photo3{
+      width: 277px;
+      height: 270px;
+    }
+    .photo4{
+      width: 277px;
+    }
+    .photo5{
+      width: 277px;
+    }
+  }
+  @media(max-width: 450px){
+    .bot{
+      margin-left: 129px;
+    }
+    .read{
+      margin-left: 137px;
+    }
+    .photo1{
+      height: 360px;
+      width: 387px;
+    }
+    .photo2{
+      width: 387px;
+      height: 267px;
+    }
+    .photo3{
+      width: 387px;
+      height: 290px;
+    }
+    .photo4{
+      width: 387px;
+      height: 338px;
+    }
+    .photo5{
+      width: 387px;
+      height: 338px;
+    }
+  }
+  
+  @media(max-width: 450px){
+    .bot{
+      margin-left: 79px;
+    }
+    .read{
+      margin-left: 87px;
+    }
+    .photo1{
+      height: 331px;
+      width: 279px;
+    }
+    .photo2{
+      width: 279px;
+      height: 267px;
+    }
+    .photo3{
+      width: 279px;
+      height: 290px;
+    }
+    .photo4{
+      width: 279px;
+      height: 338px;
+    }
+    .photo5{
+      width: 281px;
+      height: 338px;
+    }
+  }
+  

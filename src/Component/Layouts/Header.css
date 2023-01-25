@@ -1,0 +1,88 @@
+/* NAV BAR CSS START*/
+.navbar-brand{
+    color: white!important;
+    font-family: math;
+    font-size: xx-large!important;
+    font-weight: 400;
+  }
+  .nav-item{
+    font-size: medium;
+    font-family: emoji;
+    font-weight: 400;
+    padding-right: 15px;
+  }
+  .home{
+    margin-left: 100px;
+  }
+  .reser{
+    margin-left: 250px;
+    border: solid 2px;
+    padding: 7px 15px 7px 15px;
+    font-family: sans-serif;
+  }
+  .ver{
+    background-color:#00000000 !important;
+    border-radius: 0px !important
+  }
+  .nav-link{
+    color: white!important;
+  }
+  /* NAV BAR CSS END*/
+  
+  
+  @media(max-width: 700px){
+    .navbar{
+      background-color: rgb(118 218 223 / 93%);
+    }
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
+    .navbar-nav{
+      text-align: center;
+    }
+    .home{
+        margin-left: 0px;
+    }
+    .cont{
+        font-size: 30px!important;
+    }
+    .reser{
+      margin-left: 60px;
+      color: #fff !important;
+  
+    }
+    .weblogo{
+        display: none;
+    }
+    .moblogo{
+        display: block;
+        width: 100%;
+    }
+    .middle{
+        font-family: 'prague';
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 45%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+  }
+  
+  @media(max-width: 450px){
+    .reser{
+      margin-left: 113px;
+    }
+  }
+  @media(max-width: 350px){
+    .reser{
+      margin-left: 60px;
+    }
+  }
+  

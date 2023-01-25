@@ -1,0 +1,89 @@
+/* FOOTER CSS START*/
+.besty{
+    height: 6em;
+  }
+  .line{
+    margin-top: 60px;
+  }
+  .hdd{
+    font-size: x-large;
+    font-family: fantasy;
+    font-weight: 500;
+    color: #997676;
+  }
+  .hpp{
+    font-family: cursive;
+    color: #593838;
+  }
+  .footer{
+    background-image: url(/public/images/gorweb.jpg);
+    width: 100%;
+    height: 550px;
+    filter: brightness(30%);
+  }
+  .fit{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+  }
+  .book{
+    text-align: center;
+    position: relative;
+    top: 220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+  }
+  .foot{
+    background-color: black;
+    height: 200px;
+  }
+  .foo1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: initial;
+    font-size: large;
+    font-weight: 500;
+  }
+  .foo2{
+    color: white;
+    text-align: center;
+    font-family: initial;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  @media(max-width: 700px){
+    .line{
+      margin-top: 0px;
+    }
+    .footer{
+      height: 750px;
+      filter: brightness(30%);
+    }
+    .foo1{
+      text-align: center;
+    }
+    .foo2{
+      text-align: center;
+    }
+    .foot{
+      height: 300px;
+    }
+  }
+  @media(max-width: 450px){
+    .besty{
+      height: 8em;
+    }
+  }
+  @media(max-width: 350px){
+    .besty{
+      height: 6em;
+    }
+  }
+  /* FOOTER CSS END*/
+  
